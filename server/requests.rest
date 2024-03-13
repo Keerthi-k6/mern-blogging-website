@@ -1,7 +1,16 @@
-POST http://localhost:3000/signin 
+# POST http://localhost:3000/get-profile
+# Content-Type: application/json
+
+# {
+#     "username": "keerthisreekonkimalla24"
+    
+# }
+POST http://localhost:3000/get-blog
 Content-Type: application/json
 
 {
-    "email": "kunaa@gmail.com",
-    "password": "Kunaal"
+    "blog_id": "sih-ideathonjaiRadAg1lcB381N1hxqs"
+    
 }
+
+# GET http://localhost:3000/trending-blogs
